@@ -50,7 +50,7 @@ const Header = () => {
                         {
                             openMenu && <div className=''>
                                 <div className='md:hidden absolute  right-[0]'>
-                                    <div className='flex flex-col items-center gap-y-[10px] w-[150px] '>
+                                    <div className='flex flex-col items-center gap-y-[10px] w-[150px] bg-white'>
                                         <ul className='flex flex-col gap-y-[10px]'>
                                             <li><Link className='text-[16px] font-[600] leading-[20px]'>About</Link></li>
                                             <li><Link className='text-[16px] font-[600] leading-[20px]'>Our Services</Link></li>

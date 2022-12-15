@@ -4,8 +4,8 @@ import wearerightimg from "../../../assets/Group 65.svg"
 
 const WeAreHere = () => {
     return (
-        <div className='py-[20px] md:py-[50px] '>
-            <div className="container we-are-here ">
+        <div className='py-[20px] md:py-[50px] we-are-half-circle'>
+            <div className="container we-are-here  ">
                 <div className='flex gap-y-[20px] flex-col md:flex-row items-center md:gap-x-[68px] lg:pl-[66px]'>
                     <div className='lg:max-w-[421px]'>
                         <h3 className='font-[700] text-[16px] sm:text-[18px] md:text-[24px] text-[#FF3E54] leading-[20px]'>\ We Are Here \</h3>
