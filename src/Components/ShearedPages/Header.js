@@ -52,11 +52,11 @@ const Header = () => {
                                 <div className='md:hidden absolute  right-[0]'>
                                     <div className='flex flex-col items-center gap-y-[10px] w-[150px] bg-white'>
                                         <ul className='flex flex-col gap-y-[10px]'>
-                                            <li><Link className='text-[16px] font-[600] leading-[20px]'>About</Link></li>
-                                            <li><Link className='text-[16px] font-[600] leading-[20px]'>Our Services</Link></li>
-                                            <li><Link className='text-[16px] font-[600] leading-[20px]'>Portfolio</Link></li>
-                                            <li><Link className='text-[16px] font-[600] leading-[20px]'>Blog</Link></li>
-                                            <li><Link className='text-[16px] font-[600] leading-[20px]'>Contact</Link></li>
+                                            <li><Link to="/about" className='text-[16px] font-[600] leading-[20px]'>About</Link></li>
+                                            <li><Link to="/our-service" className='text-[16px] font-[600] leading-[20px]'>Our Services</Link></li>
+                                            <li><Link to="/portfolio" className='text-[16px] font-[600] leading-[20px]'>Portfolio</Link></li>
+                                            <li><Link to="/blog" className='text-[16px] font-[600] leading-[20px]'>Blog</Link></li>
+                                            <li><Link to="/contact" className='text-[16px] font-[600] leading-[20px]'>Contact</Link></li>
                                         </ul>
 
                                         <button className='text-[16px] leading-[26px] font-[500] text-white px-[18px] py-[9px] rounded-[5px] bg-[#FF3E54]'>Get In Touch</button>
