@@ -7,7 +7,7 @@ const WhatWeDo = () => {
             <div className="container">
                 <div className="flex flex-col md:flex-row gap-[30px] ">
                     <div className='lg:w-[555px] lg:h-[414px]'>
-                        <img className=' w-full' src="https://i.ibb.co/ZL36CTr/Mask-group.png" alt="" />
+                        <img className=' w-full duration-300 hover:scale-95' src="https://i.ibb.co/ZL36CTr/Mask-group.png" alt="" />
                     </div>
                     <div className='md:w-1/2'>
                         <h3 className='font-[700] text-[16px] sm:text-[18px] md:text-[24px] text-[#FF3E54] leading-[20px]'>\ What We Do \</h3>

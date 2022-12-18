@@ -1,9 +1,11 @@
 import React from 'react';
 import AboutUs from './AboutUs';
 import GetInTouch from './GetInTouch';
+import OurBlog from './OurBlog';
 import OurExpertice from './OurExpertice';
 import OurLeader from './OurLeader';
 import Process from './Process';
+import SomeOfHistory from './SomeOfHistory';
 import WeAreHere from './WeAreHere';
 import WhatWeDo from './WhatWeDo';
 
@@ -17,6 +19,8 @@ const Home = () => {
             <OurExpertice></OurExpertice>
             <OurLeader></OurLeader>
             <GetInTouch></GetInTouch>
+            <OurBlog></OurBlog>
+            <SomeOfHistory></SomeOfHistory>
         </div>
     );
 };

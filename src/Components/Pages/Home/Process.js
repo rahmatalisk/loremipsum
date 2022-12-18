@@ -14,7 +14,7 @@ const Process = () => {
                     <div className='bg-[#F7F7F7]  p-[30px] rounded-[10px] relative'>
                         <div className="absolute font-[800] text-[48px] leading-[50px] text-[#0E1F51] opacity-[0.1] top-[10px] right-[10px]">01</div>
                         <div className='w-[50px] h-[50px]  md:w-[80px] md:h-[80px] rounded-[10px] bg-white flex justify-center items-center'>
-                            <img src="https://i.ibb.co/1bWtLZw/Black-1.png" alt="Black" border="0" className='w-[50px]' />
+                            <img src="https://i.ibb.co/1bWtLZw/Black-1.png" alt="Black" border="0" className='w-[50px] duration-300 hover:scale-95' />
                         </div>
 
                         <div>

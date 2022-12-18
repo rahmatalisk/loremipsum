@@ -14,7 +14,7 @@ const Header = () => {
                 <nav className='flex items-center justify-between py-[18px] md:py-[28px]'>
                     <div className='flex items-center gap-x-[11.18px]'>
                         
-                        <img src={logo} alt="" />
+                        <Link to="/"><img src={logo} alt="" /></Link>
                         <h1 className='e text-[#0E1F51] text-[18px] font-[700]'>Logoipsum</h1>
                     </div>
 
@@ -22,11 +22,11 @@ const Header = () => {
                     <div className='hidden md:block'>
                         <div className='flex items-center gap-x-[50px] '>
                             <ul className='flex gap-x-[30px]'>
-                                <li><Link className='text-[16px] font-[600] leading-[20px]'>About</Link></li>
-                                <li><Link className='text-[16px] font-[600] leading-[20px]'>Our Services</Link></li>
-                                <li><Link className='text-[16px] font-[600] leading-[20px]'>Portfolio</Link></li>
-                                <li><Link className='text-[16px] font-[600] leading-[20px]'>Blog</Link></li>
-                                <li><Link className='text-[16px] font-[600] leading-[20px]'>Contact</Link></li>
+                                <li><Link to="/about" className='text-[16px] font-[600] leading-[20px]'>About</Link></li>
+                                <li><Link to="/our-service" className='text-[16px] font-[600] leading-[20px]'>Our Services</Link></li>
+                                <li><Link to="/portfolio" className='text-[16px] font-[600] leading-[20px]'>Portfolio</Link></li>
+                                <li><Link to="/blog" className='text-[16px] font-[600] leading-[20px]'>Blog</Link></li>
+                                <li><Link to="/contact" className='text-[16px] font-[600] leading-[20px]'>Contact</Link></li>
                             </ul>
 
                             <button className='text-[16px] leading-[26px] font-[500] text-white px-[18px] py-[9px] rounded-[5px] bg-[#FF3E54]'>Get In Touch</button>

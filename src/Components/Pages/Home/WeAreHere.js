@@ -1,5 +1,5 @@
 import React from 'react';
-import wearerightimg from "../../../assets/Group 65.svg"
+
 
 
 const WeAreHere = () => {
@@ -15,7 +15,7 @@ const WeAreHere = () => {
                     </div>
 
                     <div className='lg:w-[600px] '>
-                        <img className='' src={wearerightimg} alt="" />
+                        <img className='duration-300 hover:scale-95' src="https://i.ibb.co/XDHpJ7h/Group-65.png" alt="" />
                     </div>
                 </div>
             </div>
