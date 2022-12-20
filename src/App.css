@@ -15,6 +15,16 @@
   /* color: #ff3e5408; */
 }
 
+@media all and (max-width:1100px)  {
+  .link-gap{
+    gap: 15px;
+   
+  }
+  .link-gap li a{
+    font-size: 14px;
+  }
+}
+
 
 @media all and (max-width:1024px) {
   .we-are-here{

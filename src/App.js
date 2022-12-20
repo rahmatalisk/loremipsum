@@ -8,6 +8,7 @@ import About from './Components/Pages/About/About';
 import Service from './Components/Pages/Service/Service';
 import Contact from './Components/Pages/Contact/Contact';
 import Blog from './Components/Pages/Blog/Blog';
+import Portfolio from './Components/Pages/Portfolio/Portfolio';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Route path='/about' element={<About/>}></Route>
         <Route path='/our-service' element={<Service/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
-        <Route path='/portfolio' element={<Home/>}></Route>
+        <Route path='/portfolio' element={<Portfolio/>}></Route>
         <Route path='/blog' element={<Blog/>}></Route>
       </Routes>
 

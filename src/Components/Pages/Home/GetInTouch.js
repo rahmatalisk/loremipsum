@@ -17,12 +17,12 @@ const GetInTouch = () => {
 
                         <textarea placeholder='Your Message' className='outline-0 text-[#252525] text-[14px] md:text-[16px] leading-[20px] font-[500] bg-[#F7F7F7] w-full p-[5px] md:p-[10px] lg:p-[15px] rounded-[10px] h-[150px]' name="" id="" ></textarea>
 
-                        <button className='text-[14px] md:text-[16px]  font-[500] leading-[26px] bg-[#FF3E54] rounded-[5px] py-[6px] md:py-[12px] px-[12px] md:px-[24px] text-white mt-[10px]'>Send Now</button>
+                        <button className='text-[14px] md:text-[16px]  font-[500] leading-[26px] bg-[#FF3E54] rounded-[5px] py-[5px] md:py-[12px] px-[11px] md:px-[24px] text-white mt-[10px] hover:bg-[#F7F7F7] hover:text-[#FF3E54] border-[1px] border-[#FF3E54]'>Send Now</button>
                         </form>
 
                     </div>
 
-                    <div className='md:max-w-[360px] w-full  bg-white px-[30px] pb-[30px] pt-[35px] rounded-[10px] flex flex-col gap-[30px]'>
+                    <div className='md:w-[360px] sm:w-[300px] w-full  bg-white px-[30px] pb-[30px] pt-[35px] rounded-[10px] flex flex-col gap-[30px]'>
 
                         <div className='flex gap-[15px]'>
                             <div className='bg-[#F7F7F7] rounded-[10px] w-[60px] h-[60px] md:w-[70px] md:h-[70px] flex justify-center items-center'>
@@ -60,7 +60,7 @@ const GetInTouch = () => {
 
                         <h6 className='text-[#0E1F51] font-[700] text-[20px] md:text-[24px] leading-[25px] text-center mt-[20px]'>Follow us</h6>
 
-                        <div className='flex justify-between'>
+                        <div className='flex sm:justify-between gap-[20px] '>
                             <div className='w-[40px] md:w-[60px] h-[40px] md:h-[60px] bg-[#FF3E54] rounded-[10px] flex justify-center items-center'>
                                 <img src="https://i.ibb.co/gMh7yXg/image.png" alt="" />
                             </div>

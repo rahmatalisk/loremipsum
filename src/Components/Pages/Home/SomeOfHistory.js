@@ -6,7 +6,7 @@ const SomeOfHistory = () => {
             <div className="container">
                 <div className='mx-auto max-w-[945px] rounded-[10px] sm:px-[100px] lg:px-[137px] bg-[url("https://i.ibb.co/ZGw5QZD/Rectangle-14-1.png")] bg-cover py-[40px] md:py-[60px]'>
                     <h4 className='text-center font-[700] text-[20px] md:text-[28px] lg:text-[32px] leading-[30px] md:leading-[40px] lg:leading-[50px] text-white'>“Some of the History of Our Company is that we are Catching up through Video”</h4>
-                    <button className='text-[14px] md:text-[16px]  font-[500] leading-[26px] bg-[#FF3E54] rounded-[5px] py-[6px] md:py-[9px] px-[12px] md:px-[18px] text-white mt-[20px] md:mt-[30px] block mx-auto'>Get In Touch</button>
+                    <button className='text-[14px] md:text-[16px]  font-[500] leading-[26px] bg-[#FF3E54] rounded-[5px] py-[5px] md:py-[8px] px-[11px] md:px-[17px] text-white mt-[20px] md:mt-[30px] block mx-auto hover:bg-[#F7F7F7] hover:text-[#FF3E54] border-[1px] border-[#FF3E54]'>Get In Touch</button>
                 </div>
             </div>
             

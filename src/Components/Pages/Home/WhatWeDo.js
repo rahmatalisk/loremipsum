@@ -6,13 +6,13 @@ const WhatWeDo = () => {
 
             <div className="container">
                 <div className="flex flex-col md:flex-row gap-[30px] ">
-                    <div className='lg:w-[555px] lg:h-[414px]'>
-                        <img className=' w-full duration-300 hover:scale-95' src="https://i.ibb.co/ZL36CTr/Mask-group.png" alt="" />
+                    <div className='lg:w-[555px] md:w-1/2'>
+                        <img className=' w-full duration-300 hover:scale-95 lg:w-[555px]' src="https://i.ibb.co/ZL36CTr/Mask-group.png" alt="" />
                     </div>
-                    <div className='md:w-1/2'>
+                    <div className='md:w-1/2 lg:max-w-[555px]'>
                         <h3 className='font-[700] text-[16px] sm:text-[18px] md:text-[24px] text-[#FF3E54] leading-[20px]'>\ What We Do \</h3>
                         <h3 className='font-[700] text-[24px] sm:text-[28px] md:text-[32px] lg:text-[40px] text-[#0E1F51] mt-[10px] md:mb-[30px] lg:leading-[58px]'>We Develope Product That People Love to Use.</h3>
-                        <p className='font-[500] text-[14px] md:text-[16px] text-black leading-[22px] md:leading-[27px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
+                        <p className='font-[500] text-[14px] md:text-[16px] text-black leading-[22px] md:leading-[27px] lg:max-w-[500px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
 
                         <div className='grid grid-cols-1 sm:grid-cols-2 gap-[30px]'>
                             <div className='bg-white py-[15px] pl-[15px] rounded-[18px] flex gap-[15px] items-center mt-[15px] md:mt-[30px]'>
@@ -42,7 +42,7 @@ const WhatWeDo = () => {
 
 
                         </div>
-                        <button className='text-[16px] leading-[26px] font-[500] text-white px-[24px] py-[12px] rounded-[5px] bg-[#FF3E54] mt-[30px]'>View More</button>
+                        <button className='text-[16px] leading-[26px] font-[500] text-white px-[23px] py-[11px] rounded-[5px] bg-[#FF3E54] mt-[30px] hover:bg-[#F7F7F7] hover:text-[#FF3E54] border-[1px] border-[#FF3E54]'>View More</button>
 
 
                     </div>
