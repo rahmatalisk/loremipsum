@@ -15,6 +15,11 @@
   /* color: #ff3e5408; */
 }
 
+.swiper-slide{
+  /* width: auto !important; */
+  margin-right: 30px !important;
+}
+
 @media all and (max-width:1100px)  {
   .link-gap{
     gap: 15px;

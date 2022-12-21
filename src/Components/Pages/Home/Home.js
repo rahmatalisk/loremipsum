@@ -6,6 +6,7 @@ import OurExpertice from './OurExpertice';
 import OurLeader from './OurLeader';
 import Process from './Process';
 import SomeOfHistory from './SomeOfHistory';
+import Testimonial from './Testimonial';
 import WeAreHere from './WeAreHere';
 import WhatWeDo from './WhatWeDo';
 
@@ -18,6 +19,7 @@ const Home = () => {
             <WhatWeDo></WhatWeDo>
             <OurExpertice></OurExpertice>
             <OurLeader></OurLeader>
+            <Testimonial></Testimonial>
             <GetInTouch></GetInTouch>
             <OurBlog></OurBlog>
             <SomeOfHistory></SomeOfHistory>

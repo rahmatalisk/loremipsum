@@ -4,7 +4,7 @@ const OurLeader = () => {
     return (
         <div className='bg-[#F7F7F7] py-[50px] md:py-[100px]'>
             <div className="container">
-            <h3 className='font-[700] text-[16px] sm:text-[18px] md:text-[24px] text-[#FF3E54] leading-[20px] text-center'>\ Team \</h3>
+                <h3 className='font-[700] text-[16px] sm:text-[18px] md:text-[24px] text-[#FF3E54] leading-[20px] text-center'>\ Team \</h3>
                 <h3 className='font-[700] text-[24px] sm:text-[28px] md:text-[32px] lg:text-[40px] text-[#0E1F51] mt-[10px] mb-[40px] lg:leading-[40px] text-center'>Our Leaders</h3>
 
 
@@ -32,7 +32,7 @@ const OurLeader = () => {
                     </div>
                 </div>
             </div>
-            
+
         </div>
     );
 };

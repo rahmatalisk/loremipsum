@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SomeOfHistory from '../Home/SomeOfHistory';
 
 const Portfolio = () => {
     const [activeBtn,setActiveBtn] = useState("")
@@ -57,6 +58,8 @@ const Portfolio = () => {
 
 
             </div>
+
+            <SomeOfHistory></SomeOfHistory>
         </div>
     );
 };
